@@ -1,0 +1,45 @@
+Manifest-Version: 1.0
+Main-Class: com.idocrew.weddingwise.WeddingWiseApplication
+Class-Path: logback-classic-1.4.6.jar spring-boot-starter-data-jpa-3.0.5
+ .jar json-smart-2.4.10.jar istack-commons-runtime-4.1.1.jar spring-expr
+ ession-6.0.7.jar txw2-4.0.2.jar jackson-annotations-2.14.2.jar spring-a
+ op-6.0.7.jar nimbus-jose-jwt-9.24.4.jar accessors-smart-2.4.9.jar sprin
+ g-beans-6.0.7.jar content-type-2.2.jar jakarta.validation-api-3.0.2.jar
+  evo-inflector-1.3.jar spring-boot-starter-aop-3.0.5.jar jul-to-slf4j-2
+ .0.7.jar jakarta.inject-api-2.0.0.jar thymeleaf-spring6-3.1.1.RELEASE.j
+ ar jakarta.xml.bind-api-4.0.0.jar slf4j-api-2.0.7.jar jackson-core-2.14
+ .2.jar jcip-annotations-1.0-1.jar lombok-1.18.26.jar jakarta.annotation
+ -api-2.1.1.jar jakarta.activation-api-2.1.1.jar oauth2-oidc-sdk-9.43.1.
+ jar spring-boot-starter-web-3.0.5.jar tomcat-embed-websocket-10.1.7.jar
+  antlr4-runtime-4.10.1.jar tomcat-embed-el-10.1.7.jar attoparser-2.0.6.
+ RELEASE.jar aspectjweaver-1.9.19.jar hibernate-commons-annotations-6.0.
+ 6.Final.jar jackson-module-parameter-names-2.14.2.jar json-path-2.7.0.j
+ ar log4j-to-slf4j-2.19.0.jar spring-plugin-core-3.0.0.jar asm-9.3.jar s
+ pring-webmvc-6.0.7.jar spring-boot-starter-json-3.0.5.jar spring-hateoa
+ s-2.0.3.jar jackson-datatype-jdk8-2.14.2.jar jakarta.transaction-api-2.
+ 0.1.jar commons-lang3-3.11.jar spring-context-6.0.7.jar spring-tx-6.0.7
+ .jar tomcat-embed-core-10.1.7.jar jandex-2.4.2.Final.jar jakarta.persis
+ tence-api-3.1.0.jar mysql-connector-j-8.0.32.jar hibernate-validator-8.
+ 0.0.Final.jar snakeyaml-1.33.jar jaxb-runtime-4.0.2.jar classmate-1.5.1
+ .jar micrometer-observation-1.10.5.jar jboss-logging-3.5.0.Final.jar sp
+ ring-security-oauth2-jose-6.0.2.jar spring-boot-3.0.5.jar spring-securi
+ ty-web-6.0.2.jar spring-aspects-6.0.7.jar spring-jcl-6.0.7.jar spring-s
+ ecurity-core-6.0.2.jar spring-boot-starter-thymeleaf-3.0.5.jar spring-b
+ oot-starter-jdbc-3.0.5.jar spring-boot-starter-mail-3.0.5.jar logback-c
+ ore-1.4.6.jar lang-tag-1.7.jar spring-context-support-6.0.7.jar unbesca
+ pe-1.1.6.RELEASE.jar spring-security-crypto-6.0.2.jar jackson-datatype-
+ jsr310-2.15.0.jar thymeleaf-3.1.1.RELEASE.jar spring-data-rest-webmvc-4
+ .0.4.jar spring-boot-starter-security-3.0.5.jar spring-security-oauth2-
+ client-6.0.2.jar hibernate-core-6.1.7.Final.jar jackson-databind-2.14.2
+ .jar spring-orm-6.0.7.jar angus-activation-2.0.0.jar spring-boot-devtoo
+ ls-3.0.5.jar spring-boot-starter-data-rest-3.0.5.jar thymeleaf-extras-s
+ pringsecurity6-3.1.1.RELEASE.jar spring-security-oauth2-core-6.0.2.jar 
+ jakarta.mail-1.0.0.jar micrometer-commons-1.10.5.jar HikariCP-5.0.1.jar
+  byte-buddy-1.12.23.jar spring-data-rest-core-4.0.4.jar spring-boot-aut
+ oconfigure-3.0.5.jar spring-jdbc-6.0.7.jar spring-data-jpa-3.0.4.jar sp
+ ring-boot-starter-oauth2-client-3.0.5.jar spring-web-6.0.7.jar spring-d
+ ata-commons-3.0.4.jar spring-security-config-6.0.2.jar spring-boot-star
+ ter-logging-3.0.5.jar spring-core-6.0.7.jar spring-boot-starter-tomcat-
+ 3.0.5.jar spring-boot-starter-3.0.5.jar jaxb-core-4.0.2.jar log4j-api-2
+ .19.0.jar
+

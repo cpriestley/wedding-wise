@@ -10,11 +10,13 @@
 	</parent>
 	<groupId>com.idocrew</groupId>
 	<artifactId>wedding-wise</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+	<version>1.0</version>
 	<name>wedding-wise</name>
 	<description>wedding-wise</description>
 	<properties>
-		<java.version>17</java.version>
+		<maven.compiler.source>19</maven.compiler.source>
+		<maven.compiler.target>19</maven.compiler.target>
 	</properties>
 	<dependencies>
 		<dependency>
