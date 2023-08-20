@@ -6,7 +6,7 @@
 
 
 ## Live Demo
-### [Wedding Wise Live Demo](https://weddingwise.online:8080/)
+### [Wedding Wise Live Demo](https://wedding-wise.onrender.com/)
 
 
 ## Features
