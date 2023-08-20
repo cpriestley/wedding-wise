@@ -1,19 +1,13 @@
-#
-# Build stage
-#
-FROM ubuntu:latest AS build
-LABEL authors="claytonpriestley"
-RUN apt-get update
-RUN apt-get install maven3
-RUN apt-get install openjdk-19-jre-headless -y
-COPY src /home/app/src
-COPY pom.xml /home/app
-RUN mvn -f /home/app/pom.xml clean package
+FROM eclipse-temurin:17-jdk-jammy
 
-#
-# Package stage
-#
-FROM amazoncorretto:20.0.2
-COPY --from=build /home/app/target/wedding-wise-1.0.jar /usr/local/lib/wedding-wise.jar
+WORKDIR /app
+
+COPY .mvn/ .mvn
+COPY mvnw pom.xml ./
+RUN ./mvnw dependency:resolve
+
+COPY src ./src
+
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","/usr/local/lib/wedding-wise.jar"]
+
+CMD ["./mvnw", "spring-boot:run"]
